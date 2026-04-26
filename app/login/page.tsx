@@ -135,7 +135,7 @@ export default function LoginPage(): JSX.Element {
                         <button
                             type="submit"
                             disabled={!username || !password}
-                            className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-3 bg-blue-600 text-white rounded-md text-[14px] font-semibold transition-all duration-150 hover:bg-blue-700 active:scale-[0.98] disabled:opacity-70"
+                            className="w-full cursor-pointer inline-flex items-center justify-center gap-1.5 px-4 py-3 bg-blue-600 text-white rounded-md text-[14px] font-semibold transition-all duration-150 hover:bg-blue-700 active:scale-[0.98] disabled:opacity-70"
                         >
                             {loading ? (
                                 <span className="flex items-center gap-2">
